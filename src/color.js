@@ -151,5 +151,10 @@ const wordToHex = {
 
 const hexToWord =  Object.fromEntries(Object.entries(wordToHex).map(([k, v]) => [v, k]))
 
-export const toHex = (color) => wordToHex[color.toLowerCase()];
-export const fromHex = (hex) => hexToWord[hex.toLowerCase()];
+const toHex = (color) => wordToHex[color.toLowerCase()];
+const fromHex = (hex) => hexToWord[hex.toLowerCase()];
+
+module.exports = {
+    toHex,
+    fromHex
+}
