@@ -95,7 +95,7 @@ const resolvers = {
                             XYZ: { value: dataC.XYZ.value },
                         }
                     } else {
-                        skinColor = {name: "n/a"};
+                        hairColor = {name: hairColor};
                     }
                 } else {
                     hairColor = {name: "n/a"};
@@ -117,7 +117,7 @@ const resolvers = {
                             XYZ: {value: dataC.XYZ.value},
                         }
                     } else {
-                        skinColor = {name: "n/a"};
+                        skinColor = {name: skinColor};
                     }
                 } else {
                     skinColor = {name: "n/a"};
@@ -139,7 +139,7 @@ const resolvers = {
                             XYZ: { value: dataC.XYZ.value },
                         }
                     } else {
-                        eyeColor = {name: "n/a"};
+                        eyeColor = {name: eyeColor};
                     }
                 } else {
                     eyeColor = {name: "n/a"};
